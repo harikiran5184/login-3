@@ -77,8 +77,7 @@
               
                 <label for="DOB" style="padding: 4px;margin-right:32px;color:deeppink;">DOB:</label>
                 <input type="date" id="p" name="DOB" required style="padding-left: 10px;"><br>
-                <label for="roll" style="padding: 4px;margin-right:17px;color:deeppink;">Roll no:</label>
-                <input type="number" id="p" name="roll" placeholder="Enter your roll"required><br>
+                
                 <label for="phone" style="padding: 4px;margin-right:24px;color:deeppink;">Phone:</label>
                 <input type="number" id="p" name="username" placeholder="Enter your phone number" required><br>
                 <label for="email" style="padding: 4px;margin-right:20px;color:deeppink;">E-mail:</label>
