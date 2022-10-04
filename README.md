@@ -72,7 +72,7 @@
         <div class="tra" id="tra">
             <form>
                 <label for="username" style="padding: 4px;color:deeppink;">Username:</label>
-                <input type="text" id="p" name="username" placeholder="Enter your name" style="margin-top:30px;" required><br>
+                <input type="text" id="p" name="username" placeholder="Enter your name" required><br>
               
               
                 <label for="DOB" style="padding: 4px;margin-right:32px;color:deeppink;">DOB:</label>
