@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <title>menu bar</title>
+    <style>
+      body{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        background-image: url("https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/07/shutterstock_582803470.jpg?w=750");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .link{
+        overflow: hidden;
+        background-color: darkblue;
+        float: left;
+        margin-top: 20px;
+        border-radius: 8px;
+        height: 40px;
+        margin-left: 450px;
+        margin-right: 350px;
+        
+      }
+      .link a{
+        float:left;
+        color: white;
+        padding: 14px 16px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+
+      }
+      .link a:hover {
+        background-color: lightslategray;
+      }
+      .he{
+        float: left;
+        color: cadetblue;
+      }
+      .wo{
+        color: cadetblue;
+        float:right;
+        padding-right:88%;
+      }
+    </style>
+    <script>
+      function my(){
+        const d = new Date();
+       d.toLocaleTimeString();
+        document.getElementById("time").innerHTML=d;
+      }</script>
+  </head>
+  <body>
+    
+    <div class="link">
+    <a href="#home">home</a>
+    <a href="#news">news</a>
+    <a href="https://www.google.com/">contact</a>
+    <a href="#about">about</a>
+    <a href="https://harikiran5184.github.io/form2/">login</a>
+    <a href="#time" id="time" ondblclick="my()">time</a>
+    
+     
+  </div>
+</html>
