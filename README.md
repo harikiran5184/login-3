@@ -88,7 +88,6 @@
                 <input type="file" id="p" name="photo" required><br>
                 <label for="remark" style="padding: 4px;color:deeppink;margin-right:8px;">Remarks:</label>
                 <input type="text" id="p" name="Remarks" placeholder="enter remarks here" required style="height: 100px;"><br>
-<input type="text" name="test" required>
 </form>
         </div>
         <div class="submit">
