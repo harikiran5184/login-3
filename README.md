@@ -58,8 +58,6 @@
     <a href="https://www.google.com/">contact</a>
     <a href="#about">about</a>
     <a href="https://harikiran5184.github.io/form2/">login</a>
-    <a href="#time" id="time" ondblclick="my()">time</a>
-    
-     
-  </div>
+    <a href="#time" id="time" ondblclick="my()">time</a>   
+    </div></body>
 </html>
