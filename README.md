@@ -91,7 +91,7 @@
 </form>
         </div>
         <div class="submit">
-            <button onclick="myFunction()" ><p>submit</p></button>
+            <center><button onclick="myFunction()" >submit</button></center>
             
 
         </div>
