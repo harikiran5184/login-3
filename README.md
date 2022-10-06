@@ -1,102 +1,65 @@
 <html>
-    <head>
+  <head>
+    <title>menu bar</title>
+    <style>
+      body{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        background-image: url("https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/07/shutterstock_582803470.jpg?w=750");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .link{
+        overflow: hidden;
+        background-color: darkblue;
+        float: left;
+        margin-top: 20px;
+        border-radius: 8px;
+        height: 40px;
+        margin-left: 450px;
+        margin-right: 350px;
         
-        
+      }
+      .link a{
+        float:left;
+        color: white;
+        padding: 14px 16px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+
+      }
+      .link a:hover {
+        background-color: lightslategray;
+      }
+      .he{
+        float: left;
+        color: cadetblue;
+      }
+      .wo{
+        color: cadetblue;
+        float:right;
+        padding-right:88%;
+      }
+    </style>
+    <script>
+      function my(){
+        const d = new Date();
+       d.toLocaleTimeString();
+        document.getElementById("time").innerHTML=d;
+      }</script>
+  </head>
+  <body>
+    
+    <div class="link">
+    <a href="#home">home</a>
+    <a href="#news">news</a>
+    <a href="https://www.google.com/">contact</a>
+    <a href="#about">about</a>
+    <a href="https://harikiran5184.github.io/form2/">login</a>
+    <a href="#time" id="time" ondblclick="my()">time</a>
+    
      
-     <link rel="shortcut icon" type="image/x-icon" href="">
-     <style>
-            @keyframes ani {
-                from{ background-color: lightpink;}
-                to{background-color: lightgray;}
-            }
-        body{
-            background-color: wheat;
-            background-image: url("https://wallpaperaccess.com/full/8278302.gif");
-           
-        }
-        .back{
-            color: coral;
-            text-transform: capitalize;
-            text-decoration: underline;
-            
-
-        }
-        #p{
-            
-            color: deeppink;
-            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-            
-            text-align: center;
-            text-overflow: clip;
-            padding-bottom: 15px;
-            margin-bottom: 5px;
-            display:inline-flex;
-        }
-        .tra{
-            background-color: lightgray;
-            backface-visibility:inherit;
-            border-radius: 10px;
-            display:inline-table;
-            margin-left: 40%;
-            height: 80%;
-            animation-name: ani;
-            animation-duration: 10s;
-        }
-        .submit {
-            text-align: center;
-            color: darkgray;
-            
-        }
-        #fir{
-            display:inline-flex;
-        }
-     </style>
-     <script>
-        function myFunction()
-        {   
-            document.getElementById("fir").innerHTML="sucessfully done!";
-            document.getElementById("fir").style.backgroundImage="linear-gradient(to right,lightgreen,white)";
-            
-            document.getElementById("tra").style.backgroundColor="lightgreen";
-            document.getElementById("bd").style.backgroundImage="url('https://i.gifer.com/7efs.gif')";            
-            document.getElementById("back").style.color="green";
-        }
-     </script>
-    </head>
-    <title> login page</title>   
-    <body id="bd">
-        <div class="back" id="back">
-            <h1 style="text-align:center ;"> Login Form </h1>
-
-        </div>
-        <div class="tra" id="tra">
-            <form>
-                <label for="username" style="padding: 4px;color:deeppink;">Username:</label>
-                <input type="text" id="p" name="username" placeholder="Enter your name" required><br>
-              
-              
-                <label for="DOB" style="padding: 4px;margin-right:32px;color:deeppink;">DOB:</label>
-                <input type="date" id="p" name="DOB" required style="padding-left: 10px;"><br>
-                <label for="roll" style="padding: 4px;margin-right:17px;color:deeppink;">Roll no:</label>
-                <input type="number" id="p" name="roll" placeholder="Enter your roll" required><br>
-                
-                <label for="phone" style="padding: 4px;margin-right:24px;color:deeppink;">Phone:</label>
-                <input type="number" id="p" name="username" placeholder="Enter your phone number" required><br>
-                <label for="email" style="padding: 4px;margin-right:20px;color:deeppink;">E-mail:</label>
-                <input type="mail" id="p" name="email" placeholder="Enter your E-mail" required><br>
-                <label for="photo" style="padding: 4px;margin-right:26px;color:deeppink;">Photo:</label>
-                <input type="file" id="p" name="photo" required><br>
-                <label for="remark" style="padding: 4px;color:deeppink;margin-right:8px;">Remarks:</label>
-                <input type="text" id="p" name="Remarks" placeholder="enter remarks here" required style="height: 100px;"><br>
-</form>
-        </div>
-        <div class="submit">
-            <center><button onclick="myFunction()" >submit</button></center>
-            
-
-        </div>
-        <marquee>
-    <p id="fir"></p>
-</marquee>
-</body>
+  </div>
 </html>
