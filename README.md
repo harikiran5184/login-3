@@ -17,8 +17,8 @@
         margin-top: 20px;
         border-radius: 8px;
         height: 40px;
-        margin-left: 450px;
-        margin-right: 350px;
+        margin-left: 350px;
+        margin-right: 100px;
         
       }
       .link a{
